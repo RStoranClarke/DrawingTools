@@ -1,0 +1,32 @@
+<div class='left'>
+  <h1><span class='mars'>mars</span> <span class='zoo'>zoo </span></h1>
+
+  <ul class='nav'>
+    <li data-section='about'>
+      About 
+      <span> > </span>
+    </li>
+
+    <li data-section='classify'>
+      Classify 
+      <span> > </span>
+    </li>
+
+    <li data-section='science'>
+      Science 
+      <span> > </span>
+    </li>
+
+    <li data-section='team'>
+      Team 
+      <span> > </span>
+    </li>
+  </ul>
+</div>
+
+<div class='center'>
+  <img src='mars.png' />
+</div>
+
+<div class='right'>
+</div>

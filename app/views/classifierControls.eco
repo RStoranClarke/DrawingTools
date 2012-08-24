@@ -1,0 +1,38 @@
+<div class='options'>
+  <ul class='classifierControls'>
+    
+    <ul class="toggles">
+      <li data-value="spot" data-shape='0'>
+        <img class='spot' src='spot.png' />
+        <p>SPOT</p>
+      </li>
+      <li data-value="linear" data-shape='1'>
+        <img class='linear' src='linear.png' />
+        <p>LINEAR</p>
+      </li>
+      <li data-value='fan' data-shape='2'>
+        <img src='fan.png' />
+        <p>FAN</p>
+      </li>
+    </ul>
+
+    <li class='blackWhite'>
+      <p>What colour is this feature?</p>
+      <p><span class='black'> Black </span> <span class="dashb">/</span>   <span class='white'> White </span></p>
+    </li>
+
+    <li class='stats'>
+      <div class="elevation"><p class='num'> 220</p><p class='symbol'>ls</p></div>
+      <span class="dash">/</span> 
+      <div class="lat"><p class='num'>109.4 </p><p class='symbol'>lat</p></div>
+      <span class="dash">/</span>  
+      <div class="lng"><p class='num'> -85.4 </p><p class='symbol'>lng</p></div>
+      <img src="marsThumb.png" /></p>
+    </li>
+
+    <li class="next" style='padding-top:0px'>
+      <p style="font-size:60px; margin:0px; padding:0px">></p><p style="font-size:20px; margin:0px; padding:0px; color: #00BAB1">NEXT</p>
+    </li>
+
+  </ul>
+</div>

@@ -1,0 +1,19 @@
+{
+  "dependencies": [
+    "es5-shimify", 
+    "json2ify", 
+    "jqueryify", 
+    "spine",
+    "spine/lib/local",
+    "spine/lib/ajax",
+    "spine/lib/route",
+    "spine/lib/manager",
+    "zooniverse/lib/controllers/top_bar",
+    "zooniverse",
+    "underscore/underscore"
+  ],
+  "libs": [
+    "./app/lib/kinetic.js",
+    "node_modules/Zooniverse/vendor/base64.js"
+  ]
+}

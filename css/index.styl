@@ -1,0 +1,175 @@
+@import './mixin'
+@import '../node_modules/zooniverse/css/top_bar'
+
+ul
+  list-style: none
+  padding: 0px
+  margin: 0px
+  li
+    padding: 0px
+    margin: 0px
+
+body  
+  width: 100%
+  height: 100%
+  background-color: #052128
+  font-family: TitilliumText22LRegular 
+
+
+
+  #content 
+    border-box()
+    width: 1000px
+    height: 600px
+    margin-left: auto
+    margin-right: auto
+    padding: 0px 0px 0px 0px
+    background-image: url('background.png')
+    background-repeat:no-repeat
+    background-attachment:fixed
+    background-position:center
+
+
+    .NavController 
+      padding: 20px 0px 70px 40px 
+      h1
+        padding: 0px
+        margin-bottom:  105px
+        span.mars
+          font-weight: Bold
+          font-family: TitilliumText22LBold
+        span.zoo
+          font-weight: thin
+          font-family: TitilliumText22LThin
+      div 
+        height: 100%
+        display: inline-block
+        vertical-align: center
+        &.left
+          width: 250px
+        &.center 
+          width: 380px
+        &.right
+          width: 300px
+      .nav
+        li
+          cursor: pointer
+          border-box()
+          border-radius(5px)
+          background-color: #052128
+          width: 120px
+          height: 40px
+          padding: 10px 15px 10px 15px
+          color: white
+          margin-bottom: 10px
+          span
+            float:right
+          &.active
+            color: #C4430E
+      .right
+        .blueBox
+          border-box()
+          border-radius(5px)
+          background-color: #052128
+          width: 120px
+          height: 40px
+          padding: 10px 15px 10px 15px
+          color: white
+          margin-bottom: 10px
+        ul
+          margin-left: 10px
+          h2
+            text-transform: uppercase
+            font-size: 14px
+            font-weight: bold
+          p
+            font-size: 12px
+
+
+#controls
+	margin-right:100px
+	float: right
+
+.Classifier
+  position:relative
+
+  #selectionArea
+    border-box()
+    width: 1000px
+    height: 631px
+    margin-left: auto
+    margin-right: auto
+    background-color: #F1F1F1
+    z-index: 0
+    position:relative
+
+  ul
+    margin: 0px
+
+  .options
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute
+    bottom: 0px
+    left: 8px
+
+  .classifierControls
+    z-index: 1
+    width: 1000px
+    margin-left: auto
+    margin-right: auto
+    background-color: rgba(0,0,0,0.75)
+    padding: 0px
+
+
+
+
+    li
+      border-box()
+      background-color: rgba(0,0,0,0.75)
+      float: left
+      border: 1px solid rgba(255,255,255,0.3)
+      cursor: pointer
+      height: 110px
+      margin: 0px
+      margin-top: 10px
+      padding: 20px
+      color: white
+      text-align: center
+      font-size: 10px
+      list-style : none
+      &.blackWhite
+        width: 280px
+        text-transform:uppercase
+        .active
+          color: rgba(255,255,255,0.8)
+        :hover
+          color: #FFF
+      &.stats 
+        width: 380px
+        font-size: 10px
+        text-transform:uppercase
+      .symbol
+        text-align: right
+      .elevation 
+      .lat
+      .lng
+        float:left
+        padding: 10px
+        p
+         margin: 0px
+      .num
+      .black 
+      .white 
+        font-size: 30px
+        color: #00BAB1
+      .dash
+        font-size: 60px
+        float:left
+      .dashb
+        font-size: 40px
+      &.active
+        background-color: rgba(255,255,255,0.2)
+      &.toogles
+        :hover
+          background-color: rgba(255,255,255,0.2)

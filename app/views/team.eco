@@ -1,0 +1,22 @@
+<div class='blueBox'>
+  The Team
+</div>
+
+<ul> 
+  <li>
+    <h2>Developers</h2>
+    <p>Mars is a terrestrial planet that consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. </p>
+
+  </li>
+
+  <li>
+    <h2>Designers</h2>
+    <p>Mars is a terrestrial planet that consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. </p>
+    
+  </li>
+  <li>
+    <h2>Scientists</h2>
+    <p>Mars is a terrestrial planet that consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. </p>
+    
+  </li>
+</ul>
